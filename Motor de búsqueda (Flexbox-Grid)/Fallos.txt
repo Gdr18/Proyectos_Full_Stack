@@ -1,0 +1,21 @@
+INDEX
+
+Está diferente el código html. He colocado un envoltorio de más. También me han faltado divs en Recents Posts y un div con el heading (en vez de h5).
+
+El CSS es completamente diferente. 
+
+Me ha faltado añadir color al texto del input en focus, cuando se escribe, el texto aparece en un tono de gris.
+
+Añade el box-sizing en el html, añade también aquí margin: 0 y padding: 0. Varía el diseño un poco por esto.
+
+Utiliza valores de grid-column, grid-row, y también grid-template-columns: repeat(minmax(100px, 1fr)). El responsive queda diferente debido a esto último.
+
+RESULTS
+
+*HTML
+
+El html igual que el index, pero en posts results practicamente igual salvo que yo utilicé enlaces en el primero y el resultado es con divs.
+
+
+
+

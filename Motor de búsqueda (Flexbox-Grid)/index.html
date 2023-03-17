@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Motor de búsqueda</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/0b4b154edd.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: center;
+        }
+
+        .envoltorio-contenido {
+            width: 70%;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            margin-top: 120px;
+            margin-bottom: 120px;
+        }
+
+        .logo img {
+            width: 100px;
+        }
+
+        .barra-navegacion input {
+            padding: 2.5rem 1.5rem;
+            font-family: 'Lato', sans-serif, FontAwesome;
+            font-size: 20px;
+            font-weight: 900;
+            width: 100%;
+            border: none;
+            margin-bottom: 15px;
+            box-shadow: 0px 1px 10px 2px rgba(153,153,153,0.25);
+            transition: 0.3s;
+            box-sizing: border-box;
+        }
+
+        .barra-navegacion input:focus {
+            outline: none;
+            box-shadow: 0px 1px 10px 5px rgba(153,153,153,0.5);
+        }
+
+        .barra-navegacion input::-webkit-input-placeholder {
+            color: #999999;
+        }
+
+        .barra-navegacion div {
+            text-align: right;
+            color: #999999;
+            font-size: 13px;
+        }
+        
+        .posts {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 15px;
+            align-items: flex-end;
+            margin-top: 120px;
+        }
+
+        .rendering h5 {
+            color: #0079ff;
+        }
+
+        .rendering p{
+            font-size: 13px;
+            margin-bottom: 0;
+        }
+
+        .rendering div {
+            color: #999999;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="envoltorio-contenido">
+            <div class="logo">
+                <img src="Images/ds_circle_logo.png" alt="">
+            </div>
+
+            <div class="barra-navegacion">
+                <input type="text" placeholder="&#xf002; Search DailySmarty">
+                <div>Press return to search</div>
+            </div>
+
+            <div class="posts">
+                <div class="rendering">
+                    <h5>Recent Posts</h5>
+                    <p>Guide to rendering points on a Google Map</p>
+                    <div>JavaScript</div>
+                </div>
+
+                <div class="rendering">
+                    <p>Guide to rendering points on a Google Map</p>
+                    <div>JavaScript</div>
+                </div>
+
+                <div class="rendering">
+                    <p>Guide to rendering points on a Google Map</p>
+                    <div>JavaScript</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
