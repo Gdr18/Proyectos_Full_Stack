@@ -8,6 +8,3 @@ def fizzbuzz(max_value):
       print('FizzBuzz')
     else:
       print(num)
-
-
-print(fizzbuzz(25))
