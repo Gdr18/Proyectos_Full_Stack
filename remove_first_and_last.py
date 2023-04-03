@@ -1,4 +1,4 @@
-"""
+
 lista = ['Rodrigo', 'Germán', 'Manuel', 'Hernán']
 números = list(range(1, 101))
 
