@@ -1,5 +1,3 @@
-//Solución Jordan
-
 const weightedLottery = weights => {
     // keep track of your  weights
     // ['green', 'yellow', 'yellow', 'red', 'red', 'red']

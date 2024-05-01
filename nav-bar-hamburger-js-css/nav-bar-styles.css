@@ -84,7 +84,7 @@ a {
         overflow-y: auto;
         flex-direction: column;
         transform: translateY(100%);
-        transition: top 0.3s;
+        transition: top 0.3s ease-in-out;
     }
 
     .links-container_show {

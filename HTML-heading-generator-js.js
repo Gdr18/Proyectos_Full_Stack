@@ -3,6 +3,3 @@ const htmlHeadingGenerator = (title, heading) => {
 }
 
 htmlHeadingGenerator('Hello World', 2);
-
-
-//Solución Jordan igual que la mía.

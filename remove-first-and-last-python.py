@@ -1,14 +1,17 @@
-
-lista = ['Rodrigo', 'Germán', 'Manuel', 'Hernán']
+lista = ["Rodrigo", "Germán", "Manuel", "Hernán"]
 números = list(range(1, 101))
 
+
 def remove_first_and_last(list_to_clean):
-  if type(list_to_clean) == list:
-    del list_to_clean[0], list_to_clean[-1]
+    if type(list_to_clean) == list:
+        del list_to_clean[0], list_to_clean[-1]
+    else:
+        print("El argumento no es una lista")
 
-remove_first_and_last(números)
 
-print(números)
+remove_first_and_last(lista)
+
+print(lista)
 """
 
 #Solución Jordan
@@ -31,3 +34,4 @@ print(remove_first_and_last(other_content_to_clean))
 not_enough = ['to clean']
 
 print(remove_first_and_last(not_enough))
+"""
